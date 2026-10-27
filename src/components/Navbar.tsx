@@ -7,7 +7,7 @@ export default function Navbar() {
   const [active, setActive] = useState('Home')
 
   return (
-    <div style={{ position: 'fixed', top: '20px', left: 0, right: 0, zIndex: 50, display: 'flex', justifyContent: 'center' }}>
+    <div style={{ position: 'fixed', top: '52px', left: 0, right: 0, zIndex: 50, display: 'flex', justifyContent: 'center' }}>
       <motion.nav
         initial={{ opacity: 0, y: -16 }}
         animate={{ opacity: 1, y: 0 }}

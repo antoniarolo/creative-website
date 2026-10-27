@@ -16,3 +16,46 @@ body {
   width: 100%;
   min-height: 100vh;
 }
+
+.education-notice {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 60;
+  min-height: 32px;
+  padding: 8px 16px;
+  background: #20392b;
+  color: #f5f3e9;
+  text-align: center;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+}
+
+.website-section { background: #f3f3eb; color: #23392d; padding: 88px 24px 40px; }
+.website-section-inner { max-width: 1080px; margin: 0 auto; }
+.section-eyebrow { font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; }
+.website-section h2 { font-family: "Cormorant Garamond", Georgia, serif; font-size: clamp(36px, 5vw, 56px); font-weight: 500; line-height: 1.1; margin-top: 14px; }
+.section-description { color: #5f6a60; margin-top: 18px; line-height: 1.7; max-width: 540px; }
+.website-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin-top: 40px; }
+.website-card { color: inherit; text-decoration: none; background: #fdfdf8; border: 1px solid #dce0d4; border-radius: 20px; overflow: hidden; transition: box-shadow 0.2s, border-color 0.2s; }
+.website-card:hover { box-shadow: 0 12px 32px #23392d15; border-color: #82917d; }
+.website-card:focus-visible { outline: 3px solid #496a50; outline-offset: 5px; }
+.website-preview { min-height: 260px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 32px 24px; gap: 20px; }
+.wendy .website-preview { background: #eee2dd; color: #704b50; }
+.june .website-preview { background: #dee4d6; color: #3e523d; }
+.preview-label { font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; }
+.preview-title { font-family: "Cormorant Garamond", Georgia, serif; font-weight: 500; font-size: clamp(38px, 4vw, 52px); line-height: 1.05; }
+.wendy .preview-title { font-style: italic; }
+.preview-domain { font-size: 11px; letter-spacing: 0.06em; }
+.website-card-body { padding: 28px; }
+.website-card h3 { font-size: 19px; font-weight: 500; }
+.website-card-body p { font-size: 14px; color: #5f6a60; line-height: 1.7; margin-top: 12px; }
+.website-card-link { display: flex; justify-content: space-between; align-items: center; margin-top: 28px; font-size: 13px; font-weight: 600; }
+.website-card-link span { font-size: 22px; font-weight: 400; }
+.new-tab-note { display: block; color: #6f786e; font-size: 10px; margin-top: 6px; }
+.website-attribution { font-size: 11px; line-height: 1.7; color: #6f786e; margin-top: 32px; }
+@media (max-width: 600px) {
+  .website-section { padding: 64px 20px 32px; }
+  .website-grid { grid-template-columns: 1fr; gap: 24px; }
+  .website-preview { min-height: 230px; }
+}
