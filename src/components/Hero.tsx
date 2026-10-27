@@ -53,7 +53,7 @@ export default function Hero() {
             margin: 0,
           }}
         >
-          Build Stunning<br /><em style={{ fontStyle: 'italic' }}>Websites</em> with AI
+          wendy and june
         </motion.h1>
 
         <motion.p
