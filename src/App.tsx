@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import WebsiteCards from './components/WebsiteCards'
+import Contact from './components/Contact'
 import './index.css'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <WebsiteCards />
+      <Contact />
     </div>
   )
 }

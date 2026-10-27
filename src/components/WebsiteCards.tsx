@@ -21,9 +21,9 @@ const websites = [
 
 export default function WebsiteCards() {
   return (
-    <section className="website-section" aria-labelledby="websites-heading">
+    <section id="about" className="website-section" aria-labelledby="websites-heading">
       <div className="website-section-inner">
-        <p className="section-eyebrow">Explore beyond the garden</p>
+        <p className="section-eyebrow">About</p>
         <h2 id="websites-heading">Two places to discover.</h2>
         <p className="section-description">A little inspiration for your wardrobe, your home, and the everyday.</p>
         <div className="website-grid">

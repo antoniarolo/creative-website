@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+html { scroll-behavior: smooth; scroll-padding-top: 116px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+.contact-section { border-top: 1px solid #dce0d4; padding-bottom: 80px; }
+.instagram-link { display: flex; flex-direction: column; gap: 12px; padding: 28px; border: 1px solid #dce0d4; border-radius: 20px; color: #23392d; background: #fdfdf8; text-decoration: none; }
+.instagram-link:hover { border-color: #82917d; }
+.instagram-link:focus-visible { outline: 3px solid #496a50; outline-offset: 5px; }
+.instagram-name { font-size: 19px; font-weight: 500; }
+
 * {
   margin: 0;
   padding: 0;
